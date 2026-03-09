@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_background"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setări Comenzi"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comandă: ÎNAINTE (ex: F)"
+            android:textColor="#AAAAAA"/>
+        <EditText
+            android:id="@+id/etCmdForward"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#222222"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:singleLine="true"
+            android:hint="F"
+            android:textColorHint="#555555"
+            android:inputType="textCapCharacters"
+            android:importantForAutofill="no"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comandă: ÎNAPOI (ex: B)"
+            android:textColor="#AAAAAA"/>
+        <EditText
+            android:id="@+id/etCmdBack"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#222222"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:singleLine="true"
+            android:hint="B"
+            android:textColorHint="#555555"
+            android:inputType="textCapCharacters"
+            android:importantForAutofill="no"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comandă: STÂNGA (ex: L)"
+            android:textColor="#AAAAAA"/>
+        <EditText
+            android:id="@+id/etCmdLeft"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#222222"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:singleLine="true"
+            android:hint="L"
+            android:textColorHint="#555555"
+            android:inputType="textCapCharacters"
+            android:importantForAutofill="no"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comandă: DREAPTA (ex: R)"
+            android:textColor="#AAAAAA"/>
+        <EditText
+            android:id="@+id/etCmdRight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#222222"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:singleLine="true"
+            android:hint="R"
+            android:textColorHint="#555555"
+            android:inputType="textCapCharacters"
+            android:importantForAutofill="no"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comandă: STOP (ex: S)"
+            android:textColor="#AAAAAA"/>
+        <EditText
+            android:id="@+id/etCmdStop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#222222"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:layout_marginBottom="30dp"
+            android:singleLine="true"
+            android:hint="S"
+            android:textColorHint="#555555"
+            android:inputType="textCapCharacters"
+            android:importantForAutofill="no"
+            android:minHeight="48dp" />
+
+
+        <Button
+            android:id="@+id/btnSaveSettings"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Salvează Modificările"
+            android:backgroundTint="@color/bembi_accent"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>
