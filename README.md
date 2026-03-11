@@ -1,5 +1,5 @@
 # Vehicul Robotic Bluetooth
-[Apasă aici pentru a vedea un Video Demo cu mașina](https://youtube.com/linkul-tau-aici)
+[Apasă aici pentru a vedea un Video Demo cu mașina](https://youtu.be/eRHVH7p_mwk)
 
 Acesta este un vehicul robotic autonom, controlat de la distanță printr-o aplicație de mobil. Scopul principal al acestui proiect este aplicarea practică a conceptelor de electronică, programarea microcontrolerelor și dezvoltarea de aplicații native pentru Android.
 
@@ -25,5 +25,3 @@ Acesta este un vehicul robotic autonom, controlat de la distanță printr-o apli
 * Deschideți proiectul aplicației în Android Studio, compilați și instalați fișierul APK pe telefon.
 * Împerecheați modulul HC-06 cu telefonul din setările Bluetooth.
 * Deschideți aplicația, navigați la pagina de "Conectare", alegeți robotul (HC-06).
-
-[Apasă aici pentru a vedea un Video Demo cu mașina](https://youtube.com/linkul-tau-aici)
